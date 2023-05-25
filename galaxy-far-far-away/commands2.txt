@@ -1,0 +1,816 @@
+Part I: Set the Scene
+
+
+ayron@DESKTOP-FKISC20 MINGW64 ~
+$ mkdir git-github-terminal
+
+ayron@DESKTOP-FKISC20 MINGW64 ~
+$ cd git-github-terminal
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-terminal
+$ mkdir galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-terminal
+$ mv git-github-terminal git-github-and-terminal
+mv: cannot stat 'git-github-terminal': No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-terminal
+$ rm -r git-github-terminal
+rm: cannot remove 'git-github-terminal': No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-terminal
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~
+$ mv git-github-terminal git-github-and-terminal
+
+ayron@DESKTOP-FKISC20 MINGW64 ~
+$ ls
+ AppData/                                                                                       NetHood@
+ Apple/                                                                                         OneDrive/
+'Application Data'@                                                                             PrintHood@
+ Contacts/                                                                                      Recent@
+ Cookies@                                                                                      'Saved Games'/
+ Documents/                                                                                     Searches/
+ Downloads/                                                                                     SendTo@
+ Favorites/                                                                                    'Start Menu'@
+ IntelGraphicsProfiles/                                                                         Templates@
+ Links/                                                                                         Videos/
+'Local Settings'@                                                                              'VirtualBox VMs'/
+ Music/                                                                                         git-github-and-terminal/
+'My Documents'@                                                                                 gitignore_global
+ NTUSER.DAT                                                                                     javascript
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf                                        ntuser.dat.LOG1
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms   ntuser.dat.LOG2
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms   ntuser.ini
+
+ayron@DESKTOP-FKISC20 MINGW64 ~
+$ cd git-github-and-terminal
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ ls
+galaxy-far-far-away/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ cd galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ touch commands.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mkdir death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ touch darth_vader.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ touch princess_leia.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ touch storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  princess_leia.txt  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mkdir taooine
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mv taooine tatooine
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd tatooine
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ touch luke.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ touch ben_kenobi.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+ben_kenobi.txt  luke.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ mkdir millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ cd millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ touch han_solo.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ touch chewback.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt
+
+Part II: mv- rename
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+ben_kenobi.txt  luke.txt  millenium_falcon/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ mv ben_kenobi.txt obi_wan.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+luke.txt  millenium_falcon/  obi_wan.txt
+
+Part II: cp- copy
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+luke.txt  millenium_falcon/  obi_wan.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ cd millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  princess_leia.txt  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt ../tatooine
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  princess_leia.txt  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd tatooine
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+luke.txt  millenium_falcon/  obi_wan.txt  storm_trooper.txt
+
+
+Part IV: mv- move
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ mv luke.txt millenium_falcon/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+millenium_falcon/  obi_wan.txt  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ mv obi_wan.txt millenium_falcon/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ cd millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt  luke.txt  obi_wan.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcon
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ mv millenium_falcon ../galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  galaxy-far-far-away/  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mv galaxy-far-far-away millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon/  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mv millenium_falcon death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  princess_leia.txt  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv princess_leia.txt /millenium_falcon
+mv: cannot move 'princess_leia.txt' to '/millenium_falcon': Permission denied
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv princess_leia.txt ../millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt  luke.txt  obi_wan.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ ls
+galaxy-far-far-away/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ cd millenium_falcon
+bash: cd: millenium_falcon: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ cd princess_leia.txt
+bash: cd: princess_leia.txt: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ cd death_star
+bash: cd: death_star: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ cd galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  millenium_falcon  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mkdir millenium_falcon
+mkdir: cannot create directory ‘millenium_falcon’: File exists
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mv millenium_falcon princess_leia.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  princess_leia.txt  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd millenium_falcon
+bash: cd: millenium_falcon: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  princess_leia.txt  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ rm princess_leia.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_stat
+bash: cd: death_stat: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ touch princess_leia.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  princess_leia.txt  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv princess_leia.txt millenium_falcon/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt  luke.txt  obi_wan.txt  princess_leia.txt
+
+Part V: rm- remove
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon
+$ rm obi_wan.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt  luke.txt  princess_leia.txt
+
+Part VI: all together
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcon
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mkdir yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  millenium_falcon/  storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv millenium_falcon ../yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ mkdir x_wing
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd millenium_falcon
+bash: cd: millenium_falcon: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ cd millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt  luke.txt  princess_leia.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon
+$ mv princess_leia.txt ../yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon
+$ mv luke.txt ../x_wing
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon
+$ ls
+chewback.txt  han_solo.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4/millenium_falcon
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ mv millenium_falcon ../galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ mv x_wing ../galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ ls
+yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  galaxy-far-far-away/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mkdir tie_fighter_1
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mkdir tie_fighter_2
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mkdir tie_fighter_3
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+darth_vader.txt  storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv darth_vader.txt ../tie_fighter_1
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd tie_fighter_1
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+$ ls
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd darth_vader.txt
+bash: cd: darth_vader.txt: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd tie_fighter_1
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+$ cd darth_vader.txt
+bash: cd: darth_vader.txt: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+$ ls
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+$ touch darth_vader.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+$ ls
+darth_vader.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt ../tie_fighter_2
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt ../tie_fighter_3
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd tie_fighter_2
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_2
+$ ls
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_2
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt tie_fighter_3
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd tie_fighter_3
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_3
+$ ls
+storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_3
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cp storm_trooper.txt tie_fighter_2
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd tie_figher_2
+bash: cd: tie_figher_2: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd tie_fighter_2
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_2
+$ ls
+storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_2
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ ls
+storm_trooper.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv tie_figher_1 ../galaxy-far-far-away
+mv: cannot stat 'tie_figher_1': No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv tie_fighter_1 ../galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv tie_fighter_2 ../galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ mv tie_fighter_3 ../galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/death_star
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  galaxy-far-far-away/  tatooine/  tie_fighter_1  tie_fighter_2  tie_fighter_3  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ ls
+chewback.txt  han_solo.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/  x_wing/
+
+Part VII: rm -r: remove directories and everything they contain
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ ls
+chewback.txt  han_solo.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/  x_wing/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ rm -r tie_fighter_2
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ rm -r tie_fighter_3
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ ls
+chewback.txt  han_solo.txt  tie_fighter_1/  x_wing/
+
+Part VIII:
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ cd x_wing
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away/x_wing
+$ ls
+luke.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away/x_wing
+$ touch the_force.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away/x_wing
+$ ls
+luke.txt  the_force.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away/x_wing
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ ls
+chewback.txt  han_solo.txt  tie_fighter_1/  x_wing/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  death_star/  galaxy-far-far-away/  tatooine/  tie_fighter_1  tie_fighter_2  tie_fighter_3  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ rm -r daeth_star
+rm: cannot remove 'daeth_star': No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ rm -r death_star
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  galaxy-far-far-away/  tatooine/  tie_fighter_1  tie_fighter_2  tie_fighter_3  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ rm tie_fighter_2
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ rm tie_fighter_1
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ rm tie_fighter_3
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  galaxy-far-far-away/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ ls
+chewback.txt  han_solo.txt  tie_fighter_1/  x_wing/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ mv x_wing ../yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ ls
+chewback.txt  han_solo.txt  tie_fighter_1/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  galaxy-far-far-away/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ ls
+x_wing/  yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  galaxy-far-far-away/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd tatooine
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ ls
+storm_trooper.txt
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ cd galaxy-far-far-away
+bash: cd: galaxy-far-far-away: No such file or directory
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/tatooine
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ ls
+chewback.txt  han_solo.txt  tie_fighter_1/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/galaxy-far-far-away
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd ..
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ ls
+galaxy-far-far-away/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal
+$ cd galaxy-far-far-away
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  galaxy-far-far-away/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mv galaxy-far-far-away millenium_falcon
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  millenium_falcon/  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ mv millenium_falcon yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ ls
+commands.txt  tatooine/  yavin_4/
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away
+$ cd yavin_4
+
+ayron@DESKTOP-FKISC20 MINGW64 ~/git-github-and-terminal/galaxy-far-far-away/yavin_4
+$ ls
+millenium_falcon/  x_wing/  yavin_4
+
+
